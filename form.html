@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<HTML>
+	<head>
+		<title>
+			My Details
+		</title>
+	</head>
+	
+	<body>
+		<hr>
+		<fieldset>
+		<legend align ="center">FORM</LEGEND>
+		<form action="index.html" method="get" onsubmit="return true">
+		<label>First name:</label>
+		<input type="text" name="fnm" placeholder="enter first name" required/> <br><br>
+		
+		<label>Last name:</label>
+		<input type="text" name="lnm" placeholder="enter last name" required/> <br><br>
+		
+		
+		<label>Date of birth::</label>
+		<input type="date" name="dob" min="1990-01-01" max="2010-12-31" required/> <br><br>
+		
+		<label>mobile no:</label>
+		<input type="number" name="no"> <br><br>
+		
+		<label>email</label>
+		<input type="email" name="email" required/> <br><br>
+		
+		<label>Gender:</label> <br><br>
+		<label>Male</label>
+		<input type="radio" name="gender" value="M"> <br>
+		<label>Female</label>
+		<input type="radio" name="gender" value="F"> <br>
+		<label>Others</label>
+		<input type="radio" name="gender" value="O"> <br><br>
+		
+		<label>Address:</label>
+		<textarea cols="10" rows="5">
+		</textarea><br><br>
+		<input type="submit" value="submit">
+		
+		<input type="reset" value="reset">
+		
+	</body>
+</HTML>

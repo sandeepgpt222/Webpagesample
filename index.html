@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sandeep's web page</title>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color:lightgrey;
+}
+
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+	  }
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<head>
+<h1 align="center">Welcome to my webpage</h1>
+</head>
+
+<!-- NAVIGATION BAR -->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="img2.jpg" alt="not found" height="20" width="20">Logo</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="resume.html" target="_blank">Go to my resume</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="form.html" target="_blank">Submit your details</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        search engines
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="http://www.google.co.in" target="_blank">Google</a>
+        <a class="dropdown-item" href="http://www.yahoo.in" target="_blank">Yahooo</a>
+        <a class="dropdown-item" href="http://www.quora.com" target="_blank">Quora</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+  
+<!-- CAROUSEL -->
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+	<li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images\img1.jpg" alt="Los Angeles" width="100%" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="images\img2.jpg" alt="Chicago" width="100%" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="images\img3.jpg" alt="New York" width="100%" height="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="images\img4.jpg" alt="fish" width="100%" height="100%">
+    </div>
+
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+</body>
+<html/>
